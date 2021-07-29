@@ -1,0 +1,18 @@
+{
+    "referredEntities": {},
+    "entity": {
+        "typeName": "aws_s3_bucket",
+        "attributes": {
+            "qualifiedName": "vqdl_datavendor",
+            "displayName": null,
+            "description": null,
+            "comment": "vqdl_datavendor",
+            "name": "vqdl_datavendor"
+        },
+        "isIncomplete": false,
+        "version": 0,
+        "relationshipAttributes": {},
+        "classifications": [],
+        "labels": []
+    }
+}

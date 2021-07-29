@@ -1,0 +1,34 @@
+{
+    "referredEntities": {},
+    "entity": {
+        "typeName": "Transform",
+        "attributes": {
+            "qualifiedName": "Transformation",
+            "displayName": "Transformation",
+            "description": "",
+            "comment": "",
+            "name": "Transformation",
+            "inputs": [
+                {
+                    "guid": "ebea68e0-3984-4003-a852-f1900beeb209",
+                    "typeName": "aws_s3_bucket"
+                },
+                {
+                    "guid": "502581a8-c46a-48df-a5b5-39a9d468db37",
+                    "typeName": "aws_s3_bucket"
+                }
+            ],
+            "outputs": [
+                {
+                    "guid": "b4f808ae-25c5-42a9-9214-6d69c6f973bc",
+                    "typeName": "aws_s3_bucket"
+                }
+            ]
+        },
+        "isIncomplete": false,
+        "version": 0,
+        "relationshipAttributes": {},
+        "classifications": [],
+        "labels": []
+    }
+}

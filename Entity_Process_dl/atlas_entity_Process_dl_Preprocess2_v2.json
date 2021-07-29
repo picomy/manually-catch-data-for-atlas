@@ -1,0 +1,30 @@
+{
+    "referredEntities": {},
+    "entity": {
+        "typeName": "Preprocess",
+        "attributes": {
+            "qualifiedName": "Preprocess2",
+            "displayName": "Preprocess2",
+            "description": "Preprocess the data into S3 Bucket",
+            "comment": "",
+            "name": "Preprocess2",
+            "inputs": [
+                {
+                    "guid": "bbb98fef-7df0-49dc-8c02-0c33a185c3c6",
+                    "typeName": "aws_s3_bucket"
+                }
+            ],
+            "outputs": [
+                {
+                    "guid": "502581a8-c46a-48df-a5b5-39a9d468db37",
+                    "typeName": "aws_s3_bucket"
+                }
+            ]
+        },
+        "isIncomplete": false,
+        "version": 0,
+        "relationshipAttributes": {},
+        "classifications": [],
+        "labels": []
+    }
+}

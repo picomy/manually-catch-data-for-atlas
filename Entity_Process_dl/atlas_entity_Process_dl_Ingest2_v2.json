@@ -1,0 +1,30 @@
+{
+    "referredEntities": {},
+    "entity": {
+        "typeName": "Ingest",
+        "attributes": {
+            "qualifiedName": "Ingest2",
+            "displayName": "Ingest2",
+            "description": "Ingest the data into S3 Bucket",
+            "comment": "",
+            "name": "Ingest2",
+            "inputs": [
+                {
+                    "guid": "f0a82d4c-3b94-4d4f-a7cb-d0a5354d0f84",
+                    "typeName": "aws_s3_bucket"
+                }
+            ],
+            "outputs": [
+                {
+                    "guid": "bbb98fef-7df0-49dc-8c02-0c33a185c3c6",
+                    "typeName": "aws_s3_bucket"
+                }
+            ]
+        },
+        "isIncomplete": false,
+        "version": 0,
+        "relationshipAttributes": {},
+        "classifications": [],
+        "labels": []
+    }
+}

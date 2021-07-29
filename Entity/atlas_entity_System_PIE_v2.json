@@ -1,0 +1,18 @@
+{
+    "referredEntities": {},
+    "entity": {
+        "typeName": "System",
+        "attributes": {
+            "qualifiedName": "PIE",
+            "displayName": null,
+            "description": null,
+            "comment": "PIE",
+            "name": "PIE"
+        },
+        "isIncomplete": false,
+        "version": 0,
+        "relationshipAttributes": {},
+        "classifications": [],
+        "labels": []
+    }
+}

@@ -1,0 +1,34 @@
+{
+    "referredEntities": {},
+    "entity": {
+        "typeName": "SFTP",
+        "attributes": {
+            "qualifiedName": "SFTP1",
+            "displayName": "SFTP1",
+            "description": "SFTP and Storage Gateway to replicate the data into S3 Bucket",
+            "comment": "",
+            "name": "SFTP1",
+            "inputs": [
+                {
+                    "guid": "503e6079-3112-4e43-8f07-5fbd16b14a8c",
+                    "typeName": "File"
+                },
+                {
+                    "guid": "5013332b-c087-4b23-98cc-b5c3bc7430ea",
+                    "typeName": "File"
+                }
+            ],
+            "outputs": [
+                {
+                    "guid": "f0a82d4c-3b94-4d4f-a7cb-d0a5354d0f84",
+                    "typeName": "aws_s3_bucket"
+                }
+            ]
+        },
+        "isIncomplete": false,
+        "version": 0,
+        "relationshipAttributes": {},
+        "classifications": [],
+        "labels": []
+    }
+}

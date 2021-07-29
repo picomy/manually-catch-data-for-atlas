@@ -1,0 +1,18 @@
+{
+    "referredEntities": {},
+    "entity": {
+        "typeName": "System",
+        "attributes": {
+            "qualifiedName": "UCM",
+            "displayName": null,
+            "description": null,
+            "comment": "UCM",
+            "name": "UCM"
+        },
+        "isIncomplete": false,
+        "version": 0,
+        "relationshipAttributes": {},
+        "classifications": [],
+        "labels": []
+    }
+}

@@ -1,0 +1,18 @@
+{
+    "referredEntities": {},
+    "entity": {
+        "typeName": "aws_s3_bucket",
+        "attributes": {
+            "qualifiedName": "vqdl_biz_dataset1",
+            "displayName": null,
+            "description": null,
+            "comment": "vqdl_biz_dataset1",
+            "name": "vqdl_biz_dataset1"
+        },
+        "isIncomplete": false,
+        "version": 0,
+        "relationshipAttributes": {},
+        "classifications": [],
+        "labels": []
+    }
+}

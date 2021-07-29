@@ -1,0 +1,18 @@
+{
+    "referredEntities": {},
+    "entity": {
+        "typeName": "System",
+        "attributes": {
+            "qualifiedName": "DRO",
+            "displayName": null,
+            "description": null,
+            "comment": "DRO",
+            "name": "DRO"
+        },
+        "isIncomplete": false,
+        "version": 0,
+        "relationshipAttributes": {},
+        "classifications": [],
+        "labels": []
+    }
+}

@@ -1,0 +1,97 @@
+{
+    "enumDefs": [],
+    "structDefs": [],
+    "classificationDefs": [],
+    "entityDefs": [
+        {
+            "category": "ENTITY",
+            "version": 1,
+            "name": "SFTP",
+            "description": "Atlas Type representing a SFTP Server.",
+            "typeVersion": "1.2",
+            "serviceType": "",
+            "attributeDefs": [
+                {
+                    "name": "Contact Personnel",
+                    "typeName": "string",
+                    "isOptional": true,
+                    "cardinality": "SINGLE",
+                    "valuesMinCount": 0,
+                    "valuesMaxCount": 1,
+                    "isUnique": false,
+                    "isIndexable": true,
+                    "includeInNotification": false,
+                    "searchWeight": -1
+                },
+                {
+                    "name": "Email",
+                    "typeName": "string",
+                    "isOptional": true,
+                    "cardinality": "SINGLE",
+                    "valuesMinCount": 0,
+                    "valuesMaxCount": 1,
+                    "isUnique": false,
+                    "isIndexable": true,
+                    "includeInNotification": false,
+                    "searchWeight": -1
+                },
+                {
+                    "name": "Cell-phone",
+                    "typeName": "string",
+                    "isOptional": true,
+                    "cardinality": "SINGLE",
+                    "valuesMinCount": 0,
+                    "valuesMaxCount": 1,
+                    "isUnique": false,
+                    "isIndexable": true,
+                    "includeInNotification": false,
+                    "searchWeight": -1
+                },
+                {
+                    "name": "FQDN",
+                    "typeName": "string",
+                    "isOptional": true,
+                    "cardinality": "SINGLE",
+                    "valuesMinCount": 0,
+                    "valuesMaxCount": 1,
+                    "isUnique": false,
+                    "isIndexable": true,
+                    "includeInNotification": false,
+                    "searchWeight": -1
+                },
+                {
+                    "name": "Port",
+                    "typeName": "string",
+                    "isOptional": true,
+                    "cardinality": "SINGLE",
+                    "valuesMinCount": 0,
+                    "valuesMaxCount": 1,
+                    "isUnique": false,
+                    "isIndexable": true,
+                    "includeInNotification": false,
+                    "searchWeight": -1
+                },
+                {
+                    "name": "Folder",
+                    "typeName": "string",
+                    "isOptional": true,
+                    "cardinality": "SINGLE",
+                    "valuesMinCount": 0,
+                    "valuesMaxCount": 1,
+                    "isUnique": false,
+                    "isIndexable": false,
+                    "includeInNotification": false,
+                    "searchWeight": -1
+                }
+            ],
+            "superTypes": [
+                "Process"
+            ],
+            "subTypes": [],
+            "relationshipAttributeDefs": [],
+            "businessAttributeDefs": {}
+        }
+    ],
+    "relationshipDefs": [],
+    "businessMetadataDefs": []
+}

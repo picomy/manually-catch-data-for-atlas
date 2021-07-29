@@ -1,0 +1,30 @@
+{
+    "referredEntities": {},
+    "entity": {
+        "typeName": "Crawler",
+        "attributes": {
+            "qualifiedName": "Crawler2",
+            "name": "Crawler",
+            "displayName": null,
+            "description": null,
+            "comment": "Crawler the file from the system",
+            "inputs": [
+                {
+                    "guid": "0a8759d5-067b-4508-858a-0d6a8d2fa75f",
+                    "typeName": "System"
+                }
+            ],
+            "outputs": [
+                {
+                    "guid": "5013332b-c087-4b23-98cc-b5c3bc7430ea",
+                    "typeName": "File"
+                }
+            ]
+        },
+        "isIncomplete": false,
+        "version": 0,
+        "relationshipAttributes": {},
+        "classifications": [],
+        "labels": []
+    }
+}

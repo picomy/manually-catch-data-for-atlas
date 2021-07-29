@@ -1,0 +1,97 @@
+{
+    "enumDefs": [],
+    "structDefs": [],
+    "classificationDefs": [],
+    "entityDefs": [
+        {
+            "category": "ENTITY",
+            "version": 1,
+            "name": "System",
+            "description": "Atlas Type representing a on-premises system.",
+            "typeVersion": "1.2",
+            "serviceType": "",
+            "attributeDefs": [
+                {
+                    "name": "BusinessContact(BC)",
+                    "typeName": "string",
+                    "isOptional": true,
+                    "cardinality": "SINGLE",
+                    "valuesMinCount": 0,
+                    "valuesMaxCount": 1,
+                    "isUnique": false,
+                    "isIndexable": true,
+                    "includeInNotification": false,
+                    "searchWeight": -1
+                },
+                {
+                    "name": "BC-Email",
+                    "typeName": "string",
+                    "isOptional": true,
+                    "cardinality": "SINGLE",
+                    "valuesMinCount": 0,
+                    "valuesMaxCount": 1,
+                    "isUnique": false,
+                    "isIndexable": true,
+                    "includeInNotification": false,
+                    "searchWeight": -1
+                },
+                {
+                    "name": "BC-Phone",
+                    "typeName": "string",
+                    "isOptional": true,
+                    "cardinality": "SINGLE",
+                    "valuesMinCount": 0,
+                    "valuesMaxCount": 1,
+                    "isUnique": false,
+                    "isIndexable": false,
+                    "includeInNotification": false,
+                    "searchWeight": -1
+                },
+                {
+                    "name": "TechContact(TC)",
+                    "typeName": "string",
+                    "isOptional": true,
+                    "cardinality": "SINGLE",
+                    "valuesMinCount": 0,
+                    "valuesMaxCount": 1,
+                    "isUnique": false,
+                    "isIndexable": true,
+                    "includeInNotification": false,
+                    "searchWeight": -1
+                },
+                {
+                    "name": "TC-Email",
+                    "typeName": "string",
+                    "isOptional": true,
+                    "cardinality": "SINGLE",
+                    "valuesMinCount": 0,
+                    "valuesMaxCount": 1,
+                    "isUnique": false,
+                    "isIndexable": true,
+                    "includeInNotification": false,
+                    "searchWeight": -1
+                },
+                {
+                    "name": "TC-Phone",
+                    "typeName": "string",
+                    "isOptional": true,
+                    "cardinality": "SINGLE",
+                    "valuesMinCount": 0,
+                    "valuesMaxCount": 1,
+                    "isUnique": false,
+                    "isIndexable": false,
+                    "includeInNotification": false,
+                    "searchWeight": -1
+                }
+            ],
+            "superTypes": [
+                "DataSet"
+            ],
+            "subTypes": [],
+            "relationshipAttributeDefs": [],
+            "businessAttributeDefs": {}
+        }
+    ],
+    "relationshipDefs": [],
+    "businessMetadataDefs": []
+}

@@ -1,0 +1,73 @@
+{
+    "enumDefs": [],
+    "structDefs": [],
+    "classificationDefs": [],
+    "entityDefs": [
+        {
+            "category": "ENTITY",
+            "version": 1,
+            "name": "File",
+            "description": "Atlas Type representing a file.",
+            "typeVersion": "1.2",
+            "serviceType": "",
+            "attributeDefs": [
+                {
+                    "name": "Extension",
+                    "typeName": "string",
+                    "isOptional": true,
+                    "cardinality": "SINGLE",
+                    "valuesMinCount": 0,
+                    "valuesMaxCount": 1,
+                    "isUnique": false,
+                    "isIndexable": true,
+                    "includeInNotification": false,
+                    "searchWeight": -1
+                },
+                {
+                    "name": "Kind",
+                    "typeName": "string",
+                    "isOptional": true,
+                    "cardinality": "SINGLE",
+                    "valuesMinCount": 0,
+                    "valuesMaxCount": 1,
+                    "isUnique": false,
+                    "isIndexable": true,
+                    "includeInNotification": false,
+                    "searchWeight": -1
+                },
+                {
+                    "name": "sha256sum",
+                    "typeName": "string",
+                    "isOptional": true,
+                    "cardinality": "SINGLE",
+                    "valuesMinCount": 0,
+                    "valuesMaxCount": 1,
+                    "isUnique": false,
+                    "isIndexable": false,
+                    "includeInNotification": false,
+                    "searchWeight": -1
+                },
+                {
+                    "name": "PII",
+                    "typeName": "string",
+                    "isOptional": true,
+                    "cardinality": "SINGLE",
+                    "valuesMinCount": 0,
+                    "valuesMaxCount": 1,
+                    "isUnique": false,
+                    "isIndexable": false,
+                    "includeInNotification": false,
+                    "searchWeight": -1
+                }
+            ],
+            "superTypes": [
+                "DataSet"
+            ],
+            "subTypes": [],
+            "relationshipAttributeDefs": [],
+            "businessAttributeDefs": {}
+        }
+    ],
+    "relationshipDefs": [],
+    "businessMetadataDefs": []
+}

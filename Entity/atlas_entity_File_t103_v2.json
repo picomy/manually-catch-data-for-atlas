@@ -1,0 +1,23 @@
+{
+    "referredEntities": {},
+    "entity": {
+        "typeName": "File",
+        "attributes": {
+            "qualifiedName": "t103.txt",
+            "displayName": null,
+            "description": null,
+            "comment": "t103",
+            "name": "t103.txt",
+            "FullName": "t103.txt",
+            "Extension": "txt",
+            "Kind": "csv",
+            "sha256sum": "",
+            "PII": ""
+        },
+        "isIncomplete": false,
+        "version": 0,
+        "relationshipAttributes": {},
+        "classifications": [],
+        "labels": []
+    }
+}

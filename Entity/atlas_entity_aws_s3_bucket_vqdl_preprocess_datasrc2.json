@@ -1,0 +1,18 @@
+{
+    "referredEntities": {},
+    "entity": {
+        "typeName": "aws_s3_bucket",
+        "attributes": {
+            "qualifiedName": "vqdl_preprocess_datasrc2",
+            "displayName": null,
+            "description": null,
+            "comment": "vqdl_preprocess_datasrc2",
+            "name": "vqdl_preprocess_datasrc2"
+        },
+        "isIncomplete": false,
+        "version": 0,
+        "relationshipAttributes": {},
+        "classifications": [],
+        "labels": []
+    }
+}

@@ -1,0 +1,18 @@
+{
+    "referredEntities": {},
+    "entity": {
+        "typeName": "System",
+        "attributes": {
+            "qualifiedName": "QFUBI",
+            "displayName": null,
+            "description": null,
+            "comment": "QFUBI",
+            "name": "QFUBI"
+        },
+        "isIncomplete": false,
+        "version": 0,
+        "relationshipAttributes": {},
+        "classifications": [],
+        "labels": []
+    }
+}
